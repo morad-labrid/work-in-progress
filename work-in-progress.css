@@ -1,35 +1,56 @@
-*
-{
+* {
     font-family: 'Noto Sans JP', sans-serif;
     background-color: #FCFCFC;
 }
-div {
-    width: 50%;
-    height: 50%;
-    position: absolute;
-    top: 25%;
-    left: 25%;
+
+.topnav {
+    display: flex;
+    justify-content: center;
 }
 
-h2
-{
+.topnav a {
+    margin: 25px;
+}
+
+.topnav a:hover {
+    background-color: rgb(43, 42, 42);
+    color: orange;
+    transition: 0.8s;
+    padding: 10px;
+}
+
+.main {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 25%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+h2 {
     text-align: center;
     margin-bottom: 0;
 }
-h4
-{
+
+h4 {
     text-align: center;
     margin: 0;
     font-size: 15px;
 }
-a
-{
+
+a {
     text-decoration: none;
     color: orange;
 }
 
 a:hover .shape {
-  stroke-width: 2px;
-  stroke-dashoffset: 0;
-  stroke-dasharray: 760;
+    stroke-width: 2px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 760;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
